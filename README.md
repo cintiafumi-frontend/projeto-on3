@@ -42,7 +42,7 @@ Precisamos falar sobre mulheres que mudaram o mundo!
 
 - **VSCode**: habilite o Live Server
 
-<img>
+<img src='.img/go-live.png'>
 
 - **Git Bash**: verifique seu IP `ip //all`
 
