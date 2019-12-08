@@ -67,10 +67,9 @@ Ou...
 
 - **Windows 10**: verifique seu IP conforme [instruções](https://support.microsoft.com/pt-br/help/4026518/windows-10-find-your-ip-address);
 
-- Deixar o notebook e o celular conectados na mesma rede privada de internet (WiFi ou Dados).
-
 ### Verificando seu site pelo navegador do celular
 
+- Deixar o notebook e o celular conectados na mesma rede privada de internet (WiFi ou Dados).
 - No navegador do seu celular, digite o endereço do seu IP seguido do número da porta aberta pelo Live Server `númeroIP:númeroPorta`, ex: `192.168.X.XX:5500`
 
 Obs: Se estiver usando uma rede pública de internet, talvez não seja possível acessar o projeto desta maneira. Se este for o caso, uma solução seria compartilhar sua rede de dados com seu notebook.
