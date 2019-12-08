@@ -30,22 +30,47 @@ Precisamos falar sobre mulheres que mudaram o mundo!
 
 ### Instalação de extensões no VSCode
 
-- Adicionar a extensão Live Server
+- No VSCode, ir em File > Preferences > Extensions
+- Busque pelo nome da extensão e instale-a
+- Instale a extensão Live Server
 
 <img src='./img/live-server.png' alt='Live Server extension' />
 
-- Adicionar a extensão EditorConfig
+- Instale a extensão EditorConfig
 
 <img src='./img/editorconfig.png' alt='EditorConfig extension' />
 
-### Habilitando Live Server
+### Configurando Live Server
 
-- **VSCode**: habilite o Live Server
+- Ir em **File > Preferences > Settings**
+- Na aba **User > Extensions > Live Server Config > Settings: Custom Browser**, selecionar chrome
+
+<img src='./img/live-server-config.png' />
+
+### Rodando Live Server
+
+- **VSCode**: habilite o Live Server clicando em **Go Live**
 
 <img src='./img/live.png' alt='Go Live button' />
 
-- **Git Bash**: verifique seu IP `ip //all`
+- Deverá abrir seu navegador com o endereço similar a: `http://127.0.0.1:5500/index.html`
+
+### Verificando seu IP
+
+- **Git Bash**:
+  - Digite no Git Bash `ipconfig` ou `ipconfig //all`
+  - Verifique o endereço IPv4. Deverá ser similar a: `192.168.X.X`
 
 <img>
 
-No navegador do seu celular, digite o `númeroIP:númeroPorta`, ex: `192.168.0.XX:5500`
+Ou...
+
+- **Windows 10**: verifique seu IP conforme [instruções](https://support.microsoft.com/pt-br/help/4026518/windows-10-find-your-ip-address);
+
+- Deixar o notebook e o celular conectados na mesma rede privada de internet (WiFi ou Dados).
+
+### Verificando seu site pelo navegador do celular
+
+- No navegador do seu celular, digite o endereço do seu IP seguido do número da porta aberta pelo Live Server `númeroIP:númeroPorta`, ex: `192.168.X.XX:5500`
+
+Obs: Se estiver usando uma rede pública de internet, talvez não seja possível acessar o projeto desta maneira. Se este for o caso, uma solução seria compartilhar sua rede de dados com seu notebook.
