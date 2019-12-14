@@ -25,8 +25,45 @@ Precisamos falar sobre mulheres que mudaram o mundo!
 - **Atenção**: Alterar somente em `index.html` onde houver seu nome e colocar o nome de sua personalidade no lugar
 - Adicione uma pasta com seu-nome dentro da pasta `maravilhosas`, ex: _cintia-fumi_
 - Dentro da pasta com seu-nome, crie um arquivo html com o nome da personalidade, ex: _ada-lovelace.html_
-- Dentro da sua pasta, crie também as pastas de imagens, css e js
-- Praticar HTML, CSS, responsividade (_mobile first_), efeitos com JS, JQuery, Bootstrap
+- Dentro da sua pasta, crie também as pastas de imagens, css e js, seguindo o padrão:
+
+```
+mulheres-maravilha/
+  fulana-da-silva/
+    ada-lovelace.html
+    css/
+      style.css
+    js/
+      script.js
+    img/
+      ada-lovelace-perfil.jpg
+      background.jpg
+```
+
+- Recomendações para sua página:
+  1. faça uso de html semântico
+  2. mantenha um padrão na nomeação das classes
+  3. página responsiva
+  4. mínimo de 2 sections
+  5. NAVBAR e FOOTER podem ser iguais aos da pagina principal
+  6. Uso de ao menos 1 eventlistener (javascript)
+- O objetivo é praticar HTML, CSS (com ou sem Bootstrap), responsividade, efeitos com JS ou JQuery
+
+- Não esqueça de atualizar a Home! Alterar somente em `index.html` onde houver seu nome - Substitua o link na href, a imagem da sua mulher inspiradora, o alt da imagem e "Seu nome" pelo nome da sua maravilhosa:
+
+```
+<div class="maravilhosas__perfil">
+  <a href="#">
+    <img class="img-responsive" src="./img/ada.png" alt="Foto de Ada Lovelace" />
+    <p>Ada Lovelace</p>
+  </a>
+</div>
+```
+
+**ATENÇÃO**
+
+1. A entrega do projeto é obrigatória para obter o certificado do curso (ಠoಠ)
+2. O projeto deve ser entregue até sexta-feira (20/12), porém se conseguirem entregar até antes da aula de quinta (19/12), vocês poderão acompanhar o merge e deploy da sua página! :purple_heart:
 
 ### Instalação de extensões no VSCode
 
@@ -71,3 +108,30 @@ Ou...
 - No navegador do seu celular, digite o endereço do seu IP seguido do número da porta aberta pelo Live Server `númeroIP:númeroPorta`, ex: `192.168.X.XX:5500`
 
 Obs: Se estiver usando uma rede pública de internet, talvez não seja possível acessar o projeto desta maneira. Se este for o caso, uma solução seria compartilhar sua rede de dados com seu notebook.
+
+## Fotos sem direitos autorais
+
+- https://unsplash.com/
+- https://pixabay.com/
+- https://www.freepik.com/
+- https://search.creativecommons.org/
+
+## Revisão CSS
+
+- documentação geral: (https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- linear-gradient: (https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
+- background-attachment: (https://css-tricks.com/almanac/properties/b/background-attachment/)
+- transition: (https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+
+## Revisão JavaScript Eventos
+
+- metodo addEventListener() (https://www.w3schools.com/jsref/met_element_addeventlistener.asp)
+- Lista de Eventos (https://developer.mozilla.org/en-US/docs/Web/Events)
+
+## Sites para referência:
+
+- (https://natalyapeixoto.github.io/)
+- (https://dutra21.github.io/projetoFinalReprograma/)
+- (https://deboradom.github.io/venus/index.html)
+- (https://search.muz.li/inspiration/best-designed-landing-pages/)
+- (https://www.landingfolio.com/)
