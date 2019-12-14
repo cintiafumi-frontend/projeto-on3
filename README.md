@@ -23,7 +23,7 @@ Precisamos falar sobre mulheres que mudaram o mundo!
 - Clonar este repositório: `git clone https://github.com/reprograma/On3-projeto-final.git`
 - Crie sua branch: `git checkout -b seuNome`, ex: `git checkout -b cintiafumi`
 - **Atenção**: Alterar somente em `index.html` onde houver seu nome e colocar o nome de sua personalidade no lugar
-- Adicione uma pasta com seu-nome dentro da pasta `perfil-maravilhosa`, ex: _cintia-fumi_
+- Adicione uma pasta com seu-nome dentro da pasta `maravilhosas`, ex: _cintia-fumi_
 - Dentro da pasta com seu-nome, crie um arquivo html com o nome da personalidade, ex: _ada-lovelace.html_
 - Dentro da sua pasta, crie também as pastas de imagens, css e js
 - Praticar HTML, CSS, responsividade (_mobile first_), efeitos com JS, JQuery, Bootstrap
@@ -60,8 +60,6 @@ Precisamos falar sobre mulheres que mudaram o mundo!
 - **Git Bash**:
   - Digite no Git Bash `ipconfig` ou `ipconfig //all`
   - Verifique o endereço IPv4. Deverá ser similar a: `192.168.X.X`
-
-<img>
 
 Ou...
 
